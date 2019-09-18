@@ -1,0 +1,94 @@
+import sqlite3 
+conn= sqlite3.connect('D:\project.db')
+print("database created and opened successfully")
+conn.execute("CREATE TABLE PD(AGE INT,  NAME TEXT NOT NULL)")
+print("table created successfully")
+conn.close
+import sqlite3
+conn=sqlite3.connect('D:\project.db')
+print("opened database successfully")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(28, 'BENNY');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(38, 'chaiths');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(48, 'joey');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(58, 'linkin park');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(68, 'hardwell');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(78, 'Hummels');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(88, 'shakira');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(98, 'PAUL WALKER');")
+conn.execute("INSERT INTO PD(AGE,NAME)\ Values(77, 'vin diesel');")
+con.commit()
+print("records created successfully");
+conn.close()
+
+
+
+import sqlite3 
+conn= sqlite3.connect('D:\project.db')
+print("database created and opened successfully")
+conn.execute("CREATE TABLE BD(ACC NO INT, BALANCE INT)")
+print("table created successfully")
+conn.close
+import sqlite3
+conn=sqlite3.connect('D:\project.db')
+print("opened database successfully")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(121, 1000);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(122, 1090);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values (125, 1099);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(123, 1092);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(124, 20001);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(126, 3452);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(127, 2222);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(128, 1111);")
+conn.execute("INSERT INTO BD(ACC NO,BALANCE)\ Values(129, 2112);")
+con.commit()
+print("records created successfully");
+conn.close()
+
+import sqlite3 
+conn= sqlite3.connect('D:\project.db')
+print("database created and opened successfully")
+conn.execute("CREATE TABLE TD(DEBIT INT,CREDIT INT )")
+print("table created successfully")
+conn.close
+import sqlite3
+conn=sqlite3.connect('D:\project.db')
+print("opened database successfully")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(120, 340);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(560, 670);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(500, 600);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(100, 200);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(200, 300);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(40, 500);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(10000, 120);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(213, 6372);")
+conn.execute("INSERT INTO TD(DEBIT,CREDIT)\ Values(100, 200);")
+con.commit()
+print("records created successfully");
+conn.close()
+
+import sqlite3 
+conn= sqlite3.connect('D:\project.db')
+print("database created and opened successfully")
+conn.execute("CREATE TABLE CD(ATMPIN INT,,Username TEXT NOT NULL)")
+print("table created successfully")
+conn.close
+import sqlite3
+conn=sqlite3.connect('D:\project.db')
+print("opened database successfully")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1234, ASD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1235, BSD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1236, CSD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1237, DSD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1238, ESD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1239, FSD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1240, GSD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1241, HSD);")
+conn.execute("INSERT INTO CD(ATMPIN,Username)\ Values(1242, RSD);")
+con.commit()
+print("records created successfully");
+conn.close()
+
+
+
+
+
